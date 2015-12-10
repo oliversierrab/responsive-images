@@ -1,0 +1,22 @@
+{
+    "paths" : {
+        "source" : "src/**/*",
+        "destination" : "output"
+    },
+    "suffix" :{
+        "small": "-small",
+        "small2x": "-small2x",
+        "medium": "-medium",
+        "medium2x": "-medium2x",
+        "large": "-large",
+        "large2x": "-large2x"
+    },
+    "sizes" :{
+        "small": 736,
+        "small2x": 1200,
+        "medium": 1050,
+        "medium2x": 2100,
+        "large": 1600,
+        "large2x": 3000
+    }
+}
