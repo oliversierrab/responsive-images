@@ -2,9 +2,11 @@
 Responsive image generator.
 
 1) 	Install VIPS [vips](http://www.vips.ecs.soton.ac.uk/index.php?title=Build_on_OS_X)
-	```shell
+
+	```
 	brew install vips --with-webp --with-graphicsmagick --without-check
 	```
+	
 	* Go for a coffee...
 
 2)	npm install
