@@ -84,6 +84,7 @@ gulp.task('generate', ['clean'], function () {
         }
     }],{
       quality: config.quality,
+      errorOnUnusedConfig: false,
       // errorOnUnusedImage, false,
       compressionLevel: config.pngcompression //Default: 6
     }))
