@@ -83,9 +83,9 @@ gulp.task('generate', ['clean'], function () {
           suffix: config.suffix.large2x
         }
     }],{
-      quality: 80,
+      quality: config.quality,
       // errorOnUnusedImage, false,
-      compressionLevel: 9 //Default 6
+      compressionLevel: config.pngcompression //Default: 6
     }))
     .pipe(gulp.dest(config.paths.destination));
 });
