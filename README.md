@@ -3,9 +3,8 @@ Responsive image generator.
 
 1) 	Install VIPS [vips](http://www.vips.ecs.soton.ac.uk/index.php?title=Build_on_OS_X)
 
-	```
-	brew install vips --with-webp --with-graphicsmagick --without-check
-	```
+	brew install homebrew/science/vips --with-webp --with-graphicsmagick --without-check
+
 	
 	* Go for a coffee...
 
@@ -50,6 +49,7 @@ Dependencies (included in package.json)
 * [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)
 
 Pre-requisites
+* [brew](http://brew.sh/)
 * [node](https://github.com/nodejs/node)
 * [gulp](https://www.npmjs.com/package/gulp)
 
